@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import envelope from './img/envelope.png'
 import VideoLaunch from './VideoLaunch';
+import './letter.css'
 
 function Letter() {
      const [isLetterOpen, setIsLetterOpen] = useState(true);

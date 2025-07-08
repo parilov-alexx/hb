@@ -14,6 +14,7 @@
 .App-header {
   background-color: #282c34;
   min-height: 30%;
+  padding: 0;
 
 }
 
@@ -28,6 +29,7 @@ text-align: center;
 font-size: 15vh;
 font-family: Redressed;
 color: #d6c800;
+padding: 0.1em;
 }
 
 .App-link {
@@ -37,9 +39,13 @@ color: #d6c800;
 @keyframes growAndRotate {  
     0% { transform: scale(0) rotate(0); }  
     
-    100% { transform: scale(1.5) rotate(360deg); }  
+    100% { transform: scale(1) rotate(360deg); }  
 }  
-.letter_img { animation: growAndRotate 3s ; } 
+.letter_img { 
+  animation: growAndRotate 3s ;
+  margin: 0.5em auto; 
+  width: 60%;
+} 
 
 .letter {
   display: flex;
@@ -49,4 +55,18 @@ color: #d6c800;
 
 ._hidden {
   display: none;
+}
+
+@media screen and (orientation: portrait) {
+    .h_text {
+text-align: center;
+font-size: 10vh;
+font-family: Redressed;
+color: #d6c800;
+padding: 0.1em;
+}
+
+.letter_img { 
+  width: 99%;
+}
 }

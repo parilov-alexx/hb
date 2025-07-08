@@ -1,0 +1,11 @@
+.videoBox {
+    margin: 0.5em auto;
+    width: 80%;
+}
+
+@media screen and (orientation: portrait) {
+    .videoBox {
+    margin: 0.5em auto;
+    width: 99%;
+}
+}
