@@ -44,7 +44,7 @@ padding: 0.1em;
 .letter_img { 
   animation: growAndRotate 3s ;
   margin: 0.5em auto; 
-  width: 60%;
+  width: 50%;
 } 
 
 .letter {
@@ -67,6 +67,6 @@ padding: 0.1em;
 }
 
 .letter_img { 
-  width: 99%;
+  width: 98%;
 }
 }
